@@ -4,5 +4,5 @@
 void main() {
   var n = 3.14159265359;
   String toString = n.toStringAsFixed(2);
-  print("double: $toString\n");
+  print("Double: $toString\n");
 }
