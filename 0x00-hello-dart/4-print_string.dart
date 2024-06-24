@@ -4,6 +4,6 @@
 
 void main() {
   String str = "Holberton School";
-  String firtStr = str.substring(0,9);
-  print("${str*3}\n$firtStr\n");
+  print("${str*3}");
+  print("${str.substring(0, 9)}\n");
 }
