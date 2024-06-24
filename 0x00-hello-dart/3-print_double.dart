@@ -3,6 +3,6 @@
 
 void main() {
   var n = 3.14159265359;
-  var toString = n.toStringAsFixed(2);
-  print("double: ${toString}\n");
+  String toString = n.toStringAsFixed(2);
+  print("double: $toString\n");
 }
