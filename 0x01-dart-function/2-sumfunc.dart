@@ -7,7 +7,5 @@ int sub(int a, int b) {
 }
 
 String showFunc(int a, int b) {
-    var added = add(a, b);
-    var substitution = sub(a, b);
-    return "Add $a + $b = $added\nSub $a + $b = $substitution";
+    return "Add $a + $b = ${add(a, b)}\nSub $a + $b = ${sub(a, b)}";
 }
