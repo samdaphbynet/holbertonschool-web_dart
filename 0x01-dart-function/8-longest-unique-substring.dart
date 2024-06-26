@@ -1,4 +1,5 @@
 String longestUniqueSubstring(String str) {
+  if (str.length == 0) return "";
   int maxLength = 0;
   String longestSubstring = "";
 
