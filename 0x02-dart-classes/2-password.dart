@@ -13,7 +13,8 @@ class Password {
     return hasUpperCase && hasLowerCase && hasNumber;
   }
 
+  @override
   String toString() {
-    return "Your password is: $password";
+    return "Your Password is: $password";
   }
 }
